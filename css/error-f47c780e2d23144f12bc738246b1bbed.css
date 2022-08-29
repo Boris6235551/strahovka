@@ -1,0 +1,319 @@
+@font-face {
+  font-family: 'robotobold';
+  src: url(../assets/roboto-bold-webfont-1ba55c5166a067a50a74d351a455aebb.eot);
+  src: url(../assets/roboto-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../assets/roboto-bold-webfont-bd640d6637da6c320ff8e981e2986d72.woff) format("woff"), url(../assets/roboto-bold-webfont-7389da6b4e1a839eb7c22e9633d093de.ttf) format("truetype"), url(../assets/roboto-bold-webfont.svg#robotobold) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url(../assets/roboto-light-webfont-841eb5d367f7bb0a8da04a46369398ac.eot);
+  src: url(../assets/roboto-light-webfont.eot?#iefix) format("embedded-opentype"), url(../assets/roboto-light-webfont-db8b9b87d5070b3348b3f1793c6c9dea.woff) format("woff"), url(../assets/roboto-light-webfont-11b6a31b1f54e97e0cdccf85e8f6e685.ttf) format("truetype"), url(../assets/roboto-light-webfont.svg#robotolight) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url(../assets/roboto-regular-webfont-a03cd09d188130271368008664e5897f.eot);
+  src: url(../assets/roboto-regular-webfont.eot?#iefix) format("embedded-opentype"), url(../assets/roboto-regular-webfont-ccba4a322efb404dc55de74ffda0383a.woff) format("woff"), url(../assets/roboto-regular-webfont-de0f57839ba5abd2203b55393d634a70.ttf) format("truetype"), url(../assets/roboto-regular-webfont.svg#robotoregular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 32, ../../../app/assets/stylesheets/front/reset.css.scss */
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 33, ../../../app/assets/stylesheets/front/reset.css.scss */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+}
+
+/* line 34, ../../../app/assets/stylesheets/front/reset.css.scss */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* line 35, ../../../app/assets/stylesheets/front/reset.css.scss */
+body {
+  font-size: 100%;
+}
+
+/* line 36, ../../../app/assets/stylesheets/front/reset.css.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 37, ../../../app/assets/stylesheets/front/reset.css.scss */
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: none;
+}
+
+/* line 38, ../../../app/assets/stylesheets/front/reset.css.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: robotoregular, Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: none;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 39, ../../../app/assets/stylesheets/front/reset.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 40, ../../../app/assets/stylesheets/front/reset.css.scss */
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+/* line 41, ../../../app/assets/stylesheets/front/reset.css.scss */
+input, textarea {
+  font-family: robotoregular, Arial, Helvetica, sans-serif;
+}
+
+/* line 42, ../../../app/assets/stylesheets/front/reset.css.scss */
+input[type="submit"], input[type="checkbox"], input[type="radio"] {
+  cursor: pointer;
+}
+
+/* line 43, ../../../app/assets/stylesheets/front/reset.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* line 44, ../../../app/assets/stylesheets/front/reset.css.scss */
+strong, b {
+  font-family: 'robotobold';
+  font-weight: normal;
+}
+/*
+
+
+ */
+/* line 7, ../../app/assets/stylesheets/error.css.scss */
+body {
+  background: #715f93 url(/assets/body-900cda11b6e7dd5c033ece5d1ac73408.png);
+}
+
+/* line 8, ../../app/assets/stylesheets/error.css.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 9, ../../app/assets/stylesheets/error.css.scss */
+.all {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 14, ../../app/assets/stylesheets/error.css.scss */
+.header {
+  box-shadow: #4f4268 0px 0px 12px;
+  height: 66px;
+}
+
+/* line 18, ../../app/assets/stylesheets/error.css.scss */
+.header_content {
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 16px;
+  width: 1000px;
+}
+
+/* line 24, ../../app/assets/stylesheets/error.css.scss */
+.logo a {
+  float: left;
+  height: 34px;
+  margin: 0 12px 0 365px;
+  overflow: hidden;
+  width: 138px;
+}
+
+/* line 31, ../../app/assets/stylesheets/error.css.scss */
+.logo span {
+  background: url(../img/logo_error.png) no-repeat;
+  display: block;
+  height: 34px;
+  width: 138px;
+}
+
+/* line 37, ../../app/assets/stylesheets/error.css.scss */
+.type_services {
+  background: url(../img/type_services.png) no-repeat;
+  float: left;
+  height: 34px;
+  margin-right: 9px;
+  width: 34px;
+}
+
+/* line 44, ../../app/assets/stylesheets/error.css.scss */
+a.house_ico {
+  background-position: -43px 0;
+}
+
+/* line 45, ../../app/assets/stylesheets/error.css.scss */
+a.life_ico {
+  background-position: -86px 0;
+}
+
+/* END header */
+/* line 47, ../../app/assets/stylesheets/error.css.scss */
+.error_block {
+  height: 123px;
+  left: 50%;
+  margin: -213px 0 0 -385px;
+  padding-top: 238px;
+  position: absolute;
+  top: 50%;
+  width: 770px;
+}
+
+/* line 56, ../../app/assets/stylesheets/error.css.scss */
+.page_404 {
+  background: url(../img/404.png) 0 0 no-repeat;
+}
+
+/* line 57, ../../app/assets/stylesheets/error.css.scss */
+.page_500 {
+  background: url(/assets/500-e58490903679ea0075ba93aaf238f1d8.png) 0 0 no-repeat;
+}
+
+/* line 58, ../../app/assets/stylesheets/error.css.scss */
+.error_block h2 {
+  color: #fff;
+  font-family: robotolight;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* line 66, ../../app/assets/stylesheets/error.css.scss */
+.error_block p {
+  color: #2c233f;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* line 73, ../../app/assets/stylesheets/error.css.scss */
+.error_block ul {
+  text-align: center;
+}
+
+/* line 76, ../../app/assets/stylesheets/error.css.scss */
+.error_block ul li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 21px;
+  margin: 0 11px;
+}
+
+/* line 82, ../../app/assets/stylesheets/error.css.scss */
+.error_block ul li a {
+  color: #cab7ff;
+}
+
+/* Footer */
+/* line 84, ../../app/assets/stylesheets/error.css.scss */
+.footer {
+  border-top: 1px #7e6ba9 solid;
+  height: 77px;
+  margin-top: -78px;
+  position: relative;
+}
+
+/* line 90, ../../app/assets/stylesheets/error.css.scss */
+.footer_content {
+  height: 77px;
+  margin: 0 auto;
+  padding: 0 31px 0 26px;
+  width: 943px;
+}
+
+/* line 96, ../../app/assets/stylesheets/error.css.scss */
+.footer_bottom {
+  clear: both;
+  overflow: hidden;
+  padding-top: 17px;
+  width: 943px;
+}
+
+/* line 102, ../../app/assets/stylesheets/error.css.scss */
+.copy {
+  background: url(../img/copy.png) right center no-repeat;
+  color: #2b223e;
+  float: left;
+  margin-right: 56px;
+  padding: 8px 53px 10px 0;
+}
+
+/* line 109, ../../app/assets/stylesheets/error.css.scss */
+.contacts {
+  float: left;
+  padding-top: 8px;
+}
+
+/* line 113, ../../app/assets/stylesheets/error.css.scss */
+.contacts a {
+  background: url(../img/contacts.png) 0 -39px no-repeat;
+  color: #fff;
+  float: left;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 3px 0 12px 24px;
+}
+
+/* line 121, ../../app/assets/stylesheets/error.css.scss */
+a.skype {
+  background: url(../img/contacts.png) 0 0px no-repeat;
+  margin-left: 31px;
+  padding: 3px 0 12px 35px;
+}
+
+/* line 126, ../../app/assets/stylesheets/error.css.scss */
+a.phone {
+  background: url(../img/contacts.png) 0 -72px no-repeat;
+  margin-left: 40px;
+  padding: 3px 0 12px 32px;
+}
+
+/* line 131, ../../app/assets/stylesheets/error.css.scss */
+.social {
+  float: right;
+  padding-top: 6px;
+}
+
+/* line 135, ../../app/assets/stylesheets/error.css.scss */
+.social a {
+  background: url(../img/social.png) no-repeat;
+  float: left;
+  height: 26px;
+  margin-left: 16px;
+  width: 26px;
+}
+
+/* line 142, ../../app/assets/stylesheets/error.css.scss */
+a.fb {
+  background-position: -43px 0;
+}
+
+/* line 143, ../../app/assets/stylesheets/error.css.scss */
+a.vk {
+  background-position: -84px 0;
+}
